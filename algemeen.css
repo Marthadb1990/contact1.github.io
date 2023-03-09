@@ -1,0 +1,74 @@
+body{
+    background-blend-mode: color-burn;
+    color:darkgoldenrod;
+    margin-top: 0px;
+}
+ul a{
+    color:darkolivegreen;
+    text-decoration: none;
+}
+li{
+    display:inline-block;
+    height: 22px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    color:brown;
+    border-left: 2px darkcyan;
+    border-right: 2px darkcyan;
+    background-image: brown;
+}
+li:hover{
+    background-color:black;
+    border-style: none;
+}
+h2{
+    margin-left: 200px;
+}
+th{
+    display:inline-block;
+    height: 25px;
+    column-width: 125px;
+}
+#start{
+    display:inline-block;
+    background-color: forestgreen;
+    height: 25px;
+    width: 125px;
+}
+#vol{
+    display:inline-block;
+    background-color: forestgreen;
+    height: 25px;
+    width: 125px;
+}
+#er{
+    background-color: forestgreen; 
+    height: 25px;
+    width: 125px;
+}
+#erv{
+    background-color: whitesmoke;
+    display:inline-block;
+    height: 25px;
+    width: 125px;
+}
+#erva{
+    background-color: whitesmoke;
+    height: 25px;
+    width: 125px;
+}
+#python{
+    background-color: whitesmoke;
+    height: 25px;
+    width: 125px;
+}
+
+.progress {
+    position: relative;
+    width: 25px;
+    height: 125px;
+    background-color: coral;
+    border-radius: 5px;
+    overflow: hidden;
+}
