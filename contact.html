@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" type="text/css" href="algemeen.css">
+    </head>
+    <body>
+        <header>Contactformulier</header>
+        <hr>
+        <ul>
+            <li><a href="CV">CV</a></li>
+            <li><a href="index.html">About Me</a></li>
+            </ul>
+            <hr>
+            <p>
+                Mocht u naar aanleiding van mij geïnteresseerd zijn wat ikvoor u kan betekenen 
+                voer dan onderstaand uw contactgegevens in.
+            </p>
+            <form method="post" action="info.php">
+                <table width="600" border="2">
+                    <tbody>
+                        <tr>
+                            <td width="200"><b>Voornaam</b></td>
+                            <td width="400"><input type="text" name="Voornaam"></td>
+                        </tr>
+                        <tr>
+                            <td width="200"><b>Achternaam</b></td>
+                            <td width="400"><input type="text" name="Achternaam"></td>
+                        </tr>
+                        <tr>
+                            <td width="200"><b>Bedrijf</b></td>
+                            <td width="400"><input type="text" name="Bedrijf"></td>
+                        </tr>
+                        <tr>
+                            <td width="200"><b>Voornaam</b></td>
+                            <td width="400"><input type="email" name="Email"></td>
+                        </tr>
+                        <tr>
+                            <td width="200"><b>Uw bericht</b></td>
+                            <td width="400"><textarea name="bericht" maxlength="1500"></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="submit" name="Verzend">
+                                    <strong>Verzend</strong>
+                                </button>
+                            </td>
+                    </tbody>
+                </table>
+            </form>
+    </body>
+</html>
