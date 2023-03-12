@@ -63,12 +63,3 @@ th{
     height: 25px;
     width: 125px;
 }
-
-.progress {
-    position: relative;
-    width: 25px;
-    height: 125px;
-    background-color: coral;
-    border-radius: 5px;
-    overflow: hidden;
-}
