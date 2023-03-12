@@ -36,6 +36,15 @@ th{
     height: 25px;
     width: 125px;
 }
+
+#st {
+    display:inline-block;
+    background-color: forestgreen;
+    height: 25px;
+    width: 125px;
+}
+
+
 #vol{
     display:inline-block;
     background-color: forestgreen;
