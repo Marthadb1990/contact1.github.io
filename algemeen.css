@@ -8,7 +8,7 @@ ul a{
     text-decoration: none;
 }
 li{
-    display:inline-block;
+    display:inline-table;
     height: 22px;
     width: 200px;
     padding: 10px;
@@ -16,7 +16,7 @@ li{
     color:brown;
     border-left: 2px darkgoldenrod;
     border-right: 2px darkolivegreen;
-    background-image: brown;
+    background-color: brown;
 }
 li:hover{
     background-color:darkolivegreen;
@@ -27,28 +27,37 @@ h2{
 }
 
 th{
+    display:inline-table;
+    height: 22px;
+    width: 200px;
+    padding: 10px;
     text-align: center;
     color:brown;
     border-left: 2px darkgoldenrod;
     border-right: 2px darkolivegreen;
-    background-image: brown;
+    background-color: brown;
 }
 
 #V {
+    display:inline-table;
+    height: 22px;
+    width: 200px;
+    padding: 10px;
     text-align: center;
     color:brown;
     border-left: 2px darkgoldenrod;
     border-right: 2px darkolivegreen;
-    background-image: brown;
-    text-align: center;
-    height: 25px;
-    width: 125px;
+    background-color: brown;
 }
 
 #empty {
+    display:inline-block;
+    height: 22px;
+    width: 200px;
+    padding: 10px;
     text-align: center;
     color:brown;
     border-left: 2px darkgoldenrod;
     border-right: 2px darkolivegreen;
-    background-image: brown;
+    background-color: brown;
 }
