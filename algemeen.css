@@ -25,43 +25,19 @@ li:hover{
 h2{
     margin-left: 200px;
 }
+
 th{
-    display:inline-block;
     height: 25px;
-    column-width: 125px;
+    width: 150px;
 }
-#start{
-    display:inline-block;
+
+#V {
     background-color: forestgreen;
     height: 25px;
     width: 125px;
 }
 
-#st {
-    display:inline-block;
-    background-color: forestgreen;
-    height: 25px;
-    width: 125px;
-}
-
-#vol{
-    display:inline-block;
-    background-color: forestgreen;
-    height: 25px;
-    width: 125px;
-}
-#er{
-    background-color: forestgreen; 
-    height: 25px;
-    width: 125px;
-}
-#erv{
-    background-color: whitesmoke;
-    display:inline-block;
-    height: 25px;
-    width: 125px;
-}
-#erva{
+#empty {
     background-color: whitesmoke;
     height: 25px;
     width: 125px;
