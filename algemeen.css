@@ -27,17 +27,20 @@ h2{
 }
 
 th{
+    margin-left: 50px;
     height: 25px;
     width: 150px;
 }
 
-#V {
+.V {
+    border-spacing: 25px;
     background-color: forestgreen;
     height: 25px;
     width: 125px;
 }
 
-#empty {
+.empty {
+    border-spacing: 25px;
     background-color: whitesmoke;
     height: 25px;
     width: 125px;
