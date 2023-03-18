@@ -1,7 +1,7 @@
 body{
     background-blend-mode: color-burn;
     color:darkgoldenrod;
-    margin-top: 0px;
+    margin-top: 25px;
 }
 ul a{
     color:darkolivegreen;
@@ -14,13 +14,13 @@ li{
     padding: 10px;
     text-align: center;
     color:brown;
-    border-left: 2px darkcyan;
-    border-right: 2px darkcyan;
+    border-left: 2px darkgoldenrod;
+    border-right: 2px darkolivegreen;
     background-image: brown;
 }
 li:hover{
-    background-color:black;
-    border-style:dashed;
+    background-color:darkolivegreen;
+    border-style:none;
 }
 h2{
     margin-left: 200px;
@@ -28,18 +28,27 @@ h2{
 
 th{
     text-align: center;
-    height: 25px;
-    width: 150px;
+    color:brown;
+    border-left: 2px darkgoldenrod;
+    border-right: 2px darkolivegreen;
+    background-image: brown;
 }
 
 #V {
+    text-align: center;
+    color:brown;
+    border-left: 2px darkgoldenrod;
+    border-right: 2px darkolivegreen;
+    background-image: brown;
     text-align: center;
     height: 25px;
     width: 125px;
 }
 
 #empty {
-    margin-left: 50px;
-    height: 25px;
-    width: 125px;
+    text-align: center;
+    color:brown;
+    border-left: 2px darkgoldenrod;
+    border-right: 2px darkolivegreen;
+    background-image: brown;
 }
